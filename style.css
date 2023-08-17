@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Upright', serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(3, 63, 20);
+    padding: 15px 130px;
+   }
+nav{
+   display: flex;
+}
+.logo{
+    width: 15%;
+    height: 40px;
+}
+.nav-bar{
+    display: flex;
+    margin-left: 50%;
+    width: 450px;
+    height: 25px;
+}
+.login,.phone{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: Noto Sans;
+    font-size: 16px;
+    color: aliceblue;
+}
+.btn1{
+    margin-left: 50px;
+    background-color: rgb(25, 175, 12);
+    width: 130px;
+    height: 50px;
+    font-family: Noto Sans;
+    font-size: 16px;
+    color: aliceblue;
+    border-radius: 38%;
+    border: none;
+}
+.btn1:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+    color: rgb(25, 175, 12);
+}
+
+
+/* Header body */
+
+.header-body{
+    display: flex;
+}
+.header-left{
+    width: 450px;
+    height: 250px;
+    margin-top: 130px;
+}
+.header-title{
+    width: 370px;
+    height: 170px;
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: aliceblue;
+}
+.header-text{
+    width: 450px;
+    height: 75px;
+    font-family: 'Noto Sans' sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: aliceblue;
+    margin-top: 12px;  
+}
+.header-right img{
+    width: 650px;
+    height: 550px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/* body 1 */
+   .body1{
+    width: 100%;
+    height: 1225px;
+    background-color: #FFFFFF;
+   } 
+   .body1-top{
+    display: flex;
+    height: 509px;
+    margin: 100px 120px 0px 120px ;
+   }
+   .body1-texts{
+    margin-top: 150px;
+    margin-left: 90px;
+   }
+   .body1-top img{
+    width: 492px;
+    height: 510px;
+    margin-left: 90px;
+   }
+   .body1-title{
+    width: 420px;
+    height: 100px;
+    color: #163A24;
+    font-family: 'Cormorant Upright',sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+   }
+   .body1-text{
+    width: 350px;
+    color: #163A24;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 25px;
+   }
+  /*  body 1 footer */
+  .body1-footer{
+    width: 90%;
+    height: 250px;
+  }
+  .body1-footer-title{
+    margin-top: 100px;
+    color: #163A24;
+    text-align: center;
+    font-family: 'Cormorant Upright',sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;    
+    margin-left: 150px;
+    margin-bottom: 66px;
+  }
+  .body1-icon{
+    display: flex;
+    height: 59.391px;
+    padding: 0px 43.656px 0px 43.672px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 110px;
+  }
+  .body1-icon img{
+    width: 110px;
+    height: 51px;
+    margin-left: 60px;
+  }
+  /* body2 */
+  .body2{
+    width: 100%;
+    height: 520px;
+    background-color: #163A24;
+    margin-top: 250px;
+  }
+  .body2-title{
+    color: #FBFAF7;
+    text-align: center;
+    font-family: 'Cormorant Upright',sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 60px;
+  }
+  .body2-booton{
+   display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+  }
+  .body2-1 img{
+    width: 117px;
+    height: 145px;
+    flex-shrink: 0;
+    margin-left: 166px;
+    margin-bottom: 25px;
+  }
+  .body2-text{
+    width: 196px;
+    color: #FBFAF7;
+    text-align: center;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 110px;
+  }
+ /*  body 3 */
+ .body3{
+  width: 100%;
+  height: 700px;
+  background-color: #F2EFE6;
+  display: inline-block;
+ }
+ .body3h{
+  width: 100%;
+  height: 535.25px;
+  margin-top: 100px;
+
+ }
+ .body3-title{
+  width: 700px;
+  color: #163A24;
+  margin: 100px auto 25px auto;
+  font-family:'Cormorant Upright',sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+ }
+
+ .body3-text{
+  width: 715px;
+  color: #163A24;
+  margin: 29px auto 2px auto;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+ }
+ .body3 img{
+  width: 1100px;
+  height: 300px;
+  margin: 2px 120px 125px 120px;
+ }
+/*  body 4 */
+
+.body4{
+  display: flex;
+  width: 1000px;
+  height: 426.875px;
+  margin: 150px 120px 100px 120px;
+  justify-content: space-around;
+}
+/* body 5 */
+.body5{
+  height: 500px;
+  margin: 0 120px 80px 120px;
+}
+
+.body5-title{
+  width: 700px;
+  color: #163A24;
+  margin: 8px auto;
+  text-align: center;
+  font-family: 'Cormorant Upright',sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+.body5-text{
+  width: 350px;
+  color: #163A24;
+  margin: 20px auto;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.body5-bootom{
+  display: inline-block;
+  display: flex;
+  margin-top: 25px;
+}
+.body5-box{
+  width: 320px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #FBFAF7;
+  box-shadow: 5px 5px 20px 0px #E9E4D5;
+  margin-left: 40px;
+}
+.body5-box img{
+  width: 58px;
+  height: 68px;
+  margin: 45px 0 20px 38px;
+}
+.box-title{
+  width: 150px;
+  color: #163A24;
+  font-family: 'Cormorant Upright',sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 38px;
+
+}
+ul li{
+  width: 224px;
+  color: #163A24;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 55px;
+  margin-top: 18px;
+}
+/* Footer */
+footer{
+  display: flex;
+  background: #163A24;
+  width: 100%;
+  height: 400px;
+}
+.right{
+  width: 280px;
+  height: 370px;
+  margin-top: auto;
+}
+.main-footer{
+  margin-left: 140px;
+  margin-top: 110px;
+}
+.footer-title{
+  width: 520px;
+  color: #FBFAF7;
+  margin: 10px auto;
+  font-family: 'Cormorant Upright',sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+.footer-text{
+  width: 400px;
+  color: #FBFAF7;
+  margin: 10px auto;
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.footer-btn{
+  width: 250px;
+  height: 50px;
+  border: none;
+  border-radius: 160px;
+  background: #FAB5A0;
+  color: #163A24;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 80px;
+}
+.left{
+  width: 300px;
+  height: 400px;
+  margin-left: auto;
+}
